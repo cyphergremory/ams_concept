@@ -1,0 +1,126 @@
+{
+  "tokens": [
+    {
+      "id": 0,
+      "token": "d25610d655adeb60e9d790b15cb48194",
+      "active": true
+    },
+    {
+      "id": 1,
+      "token": "1dabfd82cd2c53fbffb7b4e562360190",
+      "active": true
+    },
+    {
+      "id": 2,
+      "token": "14b8922f6ce93a7ddf19a3741fc87da7",
+      "active": true
+    },
+    {
+      "id": 3,
+      "token": "3275e5fa832a55254427e25b58ad6352",
+      "active": true
+    },
+    {
+      "id": 4,
+      "token": "618ba50b2a76c380e86df01f67b05402",
+      "active": true
+    },
+    {
+      "id": 5,
+      "token": "d7adc16f41116094595918b73f7511b6",
+      "active": true
+    },
+    {
+      "id": 6,
+      "token": "fbc185ff9d1bde9425324084043ff4f3",
+      "active": true
+    },
+    {
+      "id": 7,
+      "token": "4dba8f2d815cbe2a0fbc09d8208a520e",
+      "active": true
+    },
+    {
+      "id": 8,
+      "token": "1575321aa76ebb55b8a540735a299b73",
+      "active": true
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "first_name": "User",
+      "middle_name": "Number",
+      "first_last_name": "One",
+      "second_last_name": "Zero",
+      "phone": "3311343410",
+      "email": "onezero@gmail.com",
+      "state": "MTY",
+      "address": "",
+      "curp": "",
+      "english_level": "",
+      "tokenId": 0,
+      "active": true
+    },
+    {
+      "id": 1,
+      "first_name": "User",
+      "middle_name": "Number",
+      "first_last_name": "Two",
+      "second_last_name": "Zero",
+      "phone": "3311343420",
+      "email": "twozero@gmail.com",
+      "state": "AGS",
+      "tokenId": 1,
+      "address": "",
+      "curp": "twozero_zerotwo",
+      "english_level": "basic",
+      "active": true
+    },
+    {
+      "id": 2,
+      "first_name": "User",
+      "middle_name": "Number",
+      "first_last_name": "Tree",
+      "second_last_name": "Zero",
+      "phone": "3311343430",
+      "email": "treezero@gmail.com",
+      "state": "MTY",
+      "address": "",
+      "curp": "treezero123",
+      "english_level": "basic",
+      "tokenId": 3,
+      "active": true
+    },
+    {
+      "id": 3,
+      "first_name": "SuperUser",
+      "middle_name": "Number",
+      "first_last_name": "Four",
+      "second_last_name": "Zero",
+      "phone": "3311343440",
+      "email": "fourzero@gmail.com",
+      "state": "MTY",
+      "address": "",
+      "curp": "SuperUser3311343440",
+      "english_level": "advanced",
+      "tokenId": 5,
+      "active": true
+    },
+    {
+      "id": 4,
+      "first_name": "User",
+      "middle_name": "Number",
+      "first_last_name": "Five",
+      "second_last_name": "Zero",
+      "phone": "3311343450",
+      "email": "fivezero@gmail.com",
+      "state": "MTY",
+      "address": "",
+      "curp": "",
+      "english_level": "",
+      "tokenId": 6,
+      "active": true
+    }
+  ]
+}

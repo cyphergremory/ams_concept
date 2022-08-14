@@ -1,0 +1,3 @@
+{
+    "/validate-tokens/:token": "/tokens?token=:token&active=true&_embed=users&singular=1"
+}
