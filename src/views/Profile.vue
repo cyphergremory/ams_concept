@@ -110,8 +110,8 @@
       await axios.put(resolve('users/' + user.value.id), user.value)
       alert('User updated');
       setTimeout(()=>{
-        router.go(0)
-      },3000)
+        goBack();
+      },1500)
 
     }catch(error){
       alert('Something went wrong.')

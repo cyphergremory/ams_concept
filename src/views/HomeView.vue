@@ -35,7 +35,7 @@ onMounted(async()=>{
       user.value = parseUser(response);
       setTimeout(()=>{
         isLoading.value =false;
-      },3000)
+      },1)
   }catch(error){
     setTimeout(()=>{
          redirectTo();

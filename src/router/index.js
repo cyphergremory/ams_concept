@@ -20,9 +20,19 @@ const router = createRouter({
       component: () => import('../views/Questionnaries.vue')
     },
     {
+      path: '/questionnaries/:id',
+      name: 'questionnarie',
+      component: () => import('../views/Questionnarie.vue')
+    },
+    {
       path: '/files',
       name: 'files',
       component: () => import('../views/Files.vue')
+    },
+    {
+      path: '/messages-center',
+      name: 'chat',
+      component: () => import('../views/Chat.vue')
     },
     {
       path:'/not-found',

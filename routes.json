@@ -1,3 +1,9 @@
 {
-    "/validate-tokens/:token": "/tokens?token=:token&active=true&_embed=users&singular=1"
+    "/validate-tokens/:token": "/tokens?token=:token&active=true&_embed=users&singular=1",
+    "/files":  "/files",
+    "/user/:user/user-files/:id":  "/userFiles?userId=:user&fileId=:id",
+    "/user/:user/user-files": "/userFiles?userId=:user",
+    "/questionnaries/:id/user-responses/:user": "/responses?questionnaryId=:id&userId=:user",
+    "/questionnaries/:id/questions":"/questionnaries?id=:id&_embed=questions&singular=1",
+    "/questionnaries-list": "/questionnaries?_embed=questions"
 }

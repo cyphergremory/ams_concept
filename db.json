@@ -86,8 +86,8 @@
       "phone": "3311343430",
       "email": "treezero@gmail.com",
       "state": "MTY",
-      "address": "",
-      "curp": "treezero123",
+      "address": "123131 avenuee",
+      "curp": "asdasdasd",
       "english_level": "basic",
       "tokenId": 3,
       "active": true
@@ -121,6 +121,277 @@
       "english_level": "",
       "tokenId": 6,
       "active": true
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "display_name": "SSN",
+      "mymes": "PDF|JPG",
+      "mandatory": true,
+      "created_at": "2022/07/02",
+      "updated_at": "2022/07/02",
+      "deleted_at": null
+    },
+    {
+      "id": 2,
+      "display_name": "Copia del ine",
+      "mymes": "PDF|JPG",
+      "mandatory": true,
+      "created_at": "2022/07/02",
+      "updated_at": "2022/07/02",
+      "deleted_at": null
+    },
+    {
+      "id": 3,
+      "display_name": "Comprobante de domicilio.",
+      "mymes": "PDF|JPG",
+      "mandatory": true,
+      "created_at": "2022/07/02",
+      "updated_at": "2022/07/02",
+      "deleted_at": null
+    },
+    {
+      "id": 4,
+      "display_name": "Comprobante de estudios",
+      "mymes": "PDF|JPG",
+      "mandatory": true,
+      "created_at": "2022/07/02",
+      "updated_at": "2022/07/02",
+      "deleted_at": null
+    },
+    {
+      "id": 5,
+      "display_name": "Carta de recomendacion laboral.",
+      "mymes": "PDF|JPG",
+      "mandatory": false,
+      "created_at": "2022/07/02",
+      "updated_at": "2022/07/02",
+      "deleted_at": null
+    },
+    {
+      "id": 6,
+      "display_name": "Carta de recomendacion personal.",
+      "mymes": "PDF|JPG",
+      "mandatory": false,
+      "created_at": "2022/07/02",
+      "updated_at": "2022/07/02",
+      "deleted_at": null
+    }
+  ],
+  "userFiles": [
+    {
+      "fileId": 1,
+      "userId": 2,
+      "file": "wellness.jpg",
+      "created_at": "Thu Aug 18 2022",
+      "id": 1
+    },
+    {
+      "fileId": 2,
+      "userId": 2,
+      "file": "wellness.jpg",
+      "created_at": "Thu Aug 18 2022",
+      "id": 2
+    },
+    {
+      "fileId": 3,
+      "userId": 2,
+      "file": "wellness.jpg",
+      "created_at": "Fri Aug 19 2022",
+      "id": 3
+    },
+    {
+      "fileId": 1,
+      "userId": 0,
+      "file": "390929F5-CA8E-4FA2-89E7-5E730BDC12D0.pdf",
+      "created_at": "Tue Aug 23 2022",
+      "id": 4
+    }
+  ],
+  "questionnaries": [
+    {
+      "id": 1,
+      "title": "Complementary information",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "timelapse": 3,
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "Cognitive Test",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+      "timelapse": 15,
+      "active": true
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "questionnaryId": 1,
+      "title": "Date of birth",
+      "hint": "EG. Bachelor Degree"
+    },
+    {
+      "id": 2,
+      "questionnaryId": 1,
+      "title": "Max Academic Grade",
+      "hint": "EG. 2002/05/03"
+    },
+    {
+      "id": 3,
+      "questionnaryId": 1,
+      "title": "Grade or title",
+      "hint": "EG. Computer Science Engineer"
+    },
+    {
+      "id": 4,
+      "questionnaryId": 1,
+      "title": "Previous position",
+      "hint": "EG. Site Manager"
+    },
+    {
+      "id": 5,
+      "questionnaryId": 1,
+      "title": "Salary Expectation($)",
+      "hint": "E.G: $2500"
+    },
+    {
+      "id": 6,
+      "questionnaryId": 2,
+      "title": "Date of birth",
+      "hint": "EG. Bachelor Degree"
+    },
+    {
+      "id": 7,
+      "questionnaryId": 2,
+      "title": "Max Academic Grade",
+      "hint": "EG. 2002/05/03"
+    },
+    {
+      "id": 8,
+      "questionnaryId": 2,
+      "title": "Grade or title",
+      "hint": "EG. Computer Science Engineer"
+    },
+    {
+      "id": 9,
+      "questionnaryId": 2,
+      "title": "Previous position",
+      "hint": "EG. Site Manager"
+    },
+    {
+      "id": 10,
+      "questionnaryId": 2,
+      "title": "Salary Expectation($)",
+      "hint": "E.G: $2500"
+    }
+  ],
+  "responses": [
+    {
+      "questionId": 1,
+      "questionnaryId": 1,
+      "response": "1992/07/03",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "questionId": 2,
+      "questionnaryId": 1,
+      "userId": 2,
+      "response": "Bachelor Degree",
+      "id": 2
+    },
+    {
+      "questionId": 3,
+      "questionnaryId": 1,
+      "userId": 2,
+      "response": "Web Developer",
+      "id": 3
+    },
+    {
+      "questionId": 4,
+      "questionnaryId": 1,
+      "userId": 2,
+      "response": "Full Stack Developer mid",
+      "id": 4
+    },
+    {
+      "questionId": 5,
+      "questionnaryId": 1,
+      "userId": 2,
+      "response": "55321",
+      "id": 5
+    },
+    {
+      "questionId": 1,
+      "questionnaryId": 1,
+      "userId": 0,
+      "response": "2008/02/12",
+      "id": 6
+    },
+    {
+      "questionId": 4,
+      "questionnaryId": 1,
+      "userId": 0,
+      "response": "DBA Jr.",
+      "id": 7
+    },
+    {
+      "questionId": 2,
+      "questionnaryId": 1,
+      "userId": 0,
+      "response": "Bachelor Degree",
+      "id": 8
+    },
+    {
+      "questionId": 3,
+      "questionnaryId": 1,
+      "userId": 0,
+      "response": "Web Developer",
+      "id": 9
+    },
+    {
+      "questionId": 5,
+      "questionnaryId": 1,
+      "userId": 0,
+      "response": "3500",
+      "id": 10
+    },
+    {
+      "questionId": 6,
+      "questionnaryId": 2,
+      "userId": 0,
+      "response": "2022/08/12",
+      "id": 11
+    },
+    {
+      "questionId": 7,
+      "questionnaryId": 2,
+      "userId": 2,
+      "response": "asdasd",
+      "id": 14
+    },
+    {
+      "questionId": 6,
+      "questionnaryId": 2,
+      "userId": 2,
+      "response": "1",
+      "id": 15
+    },
+    {
+      "questionId": 10,
+      "questionnaryId": 2,
+      "userId": 2,
+      "response": "4555",
+      "id": 16
+    },
+    {
+      "questionId": 9,
+      "questionnaryId": 2,
+      "userId": 2,
+      "response": "Sales Jr",
+      "id": 17
     }
   ]
 }
